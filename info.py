@@ -18,7 +18,7 @@ def is_enabled(value, default):
 SESSION = environ.get("SESSION", "Media_search")
 API_ID = int(environ.get("API_ID", "28978038"))
 API_HASH = environ.get("API_HASH", "dd7fa173882b6e3d3ccb0c70ccf6d626 ")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7637309577:AAH2UHaMqnQyJfoXy5Sy9Azqa0IYlIZewXA")
+BOT_TOKEN = environ.get("BOT_TOKEN", "")
 PORT = environ.get("PORT", "8082")
 
 # Owners
@@ -45,8 +45,8 @@ LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", ""))
 LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", ""))
 
 # MongoDB
-DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://RDX:RDX@cluster0.ckt1p.mongodb.net/RDX?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get("DATABASE_NAME", "RDX")
+DATABASE_URI = environ.get("DATABASE_URI", "")
+DATABASE_NAME = environ.get("DATABASE_NAME", "")
 
 # Files index database url
 FILES_DATABASE = environ.get("FILES_DATABASE", "")
